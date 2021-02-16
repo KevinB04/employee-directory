@@ -1,6 +1,6 @@
 # employee-directory
 
-![fitness-tracker](/public/assets/images/fitness-tracker.jpg)
+![GitHub Logo](https://img.shields.io/badge/license-MIT-green)
 
 ## Contributions
 
