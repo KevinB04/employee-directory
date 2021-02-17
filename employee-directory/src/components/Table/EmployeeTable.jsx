@@ -1,7 +1,9 @@
 import React from "react";
 
-class Employees = (props) => {
+
+const EmployeeTable = (props) => {
     return (
+        <div>
         <tr>
             <th>Image</th>
             <th>Name</th>
@@ -9,8 +11,15 @@ class Employees = (props) => {
             <th>Email</th>
             <th>DOB</th>
         </tr>
+        {props.users.map(user => {
+            return  (
+                <tr key={user.email}>{user.image}</tr>
+            )
+        })}
+        </div>
     );
 };
+
 
 
 export default EmployeeTable;
