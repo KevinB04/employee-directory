@@ -2,6 +2,10 @@
 
 ![GitHub Logo](https://img.shields.io/badge/license-MIT-green)
 
+## Table of Contents
+   - [Contributions](#Contributions)
+   - [License](#License)
+
 ## Contributions
 
 Not accepting contributions at this time.

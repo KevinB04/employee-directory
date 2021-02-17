@@ -1,20 +1,17 @@
-import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Search from "./pages/Search";
-import Navbar from "./components/Navbar";
+import EmployeeTable from "./components/Table/EmployeeTable";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <Wrapper>
-          <Route exact path="/" component={About} />
-          <Route exact path="/search" component={Search} />
-        </Wrapper>
-        <Footer />
+    <div>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <h1 className="text-center">Employee Directory</h1>
+            <p>Click on carrots to filter by heading or use the search box to narrow your results.</p>
+          </div>
+        </div>
       </div>
-    </Router>
+    </div>
   );
 }
 
