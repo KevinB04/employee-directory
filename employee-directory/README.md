@@ -3,8 +3,26 @@
 ![GitHub Logo](https://img.shields.io/badge/license-MIT-green)
 
 ## Table of Contents
+   - [Description](#Description)
+   - [Installation](#Installation)
+   - [Credits](#Credits)
    - [Contributions](#Contributions)
    - [License](#License)
+
+## Description
+
+The purpose of this assignment is create a working employee directory using React. It will enable the user to view non-sensitive data about other employees.
+
+## Installation
+
+In order to run this app, you should fork the repo, clone it, and open in your default browser.
+
+## Credits
+
+ * [Axios](https://www.npmjs.com/package/axios)
+ * [React](https://reactjs.org/)
+ * [React-Dom](https://www.npmjs.com/package/react-dom)
+ * [Web-Vitals](https://www.npmjs.com/package/react-web-vitals)
 
 ## Contributions
 

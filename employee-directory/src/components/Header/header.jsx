@@ -1,5 +1,5 @@
 import React from "react";
-// import "./styles/header.css";
+import "./header.css";
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
       <div className="jumbotron jumbotron-fluid text-light" id="header">
         <div className="container">
           <h1 className="text-center">Employee Directory</h1>
-          <p>
+          <p className="text-center">
             Click on a category to filter by heading or use the search box to
             narrow your results.
           </p>
