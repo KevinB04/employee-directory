@@ -3,10 +3,17 @@ import React from "react";
 
 const Header = () => {
   return (
-      <div className="header">
-        <h1 className="text-center">Employee Directory</h1>
-        <p>Click on carrots to filter by heading or use the search box to narrow your results.</p>
-  </div>
+    <div>
+      <div className="jumbotron jumbotron-fluid text-light" id="header">
+        <div className="container">
+          <h1 className="text-center">Employee Directory</h1>
+          <p>
+            Click on a category to filter by heading or use the search box to
+            narrow your results.
+          </p>
+        </div>
+      </div>
+    </div>
   );
 };
 
