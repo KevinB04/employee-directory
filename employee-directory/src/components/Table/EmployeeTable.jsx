@@ -1,24 +1,51 @@
-import React from "react";
-
+import axios from "axios";
+import React, { useEffect } from "react";
 
 const EmployeeTable = (props) => {
     return (
-        <div>
-        <tr>
-            <th>Image</th>
-            <th>Name</th>
-            <th>Phone</th>
-            <th>Email</th>
-            <th>DOB</th>
-        </tr>
-        {props.users.map(user => {
-            return  (
-                <tr key={user.email}>{user.image}</tr>
-            )
-        })}
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <tbody>
+                    <thead>
+                    <tr>
+                        <th scope>Image</th>
+                        <th scope>Name</th>
+                        <th scope>Phone</th>
+                        <th scope>Email</th>
+                        <th scope>DOB</th>
+                    </tr>
+                    </thead>
+                    </tbody>
+                    {props.users.map(user => {
+                        return (
+                            <tr key={user.email}>{user.image}</tr>
+                        )
+                    })}
+                </div>
+            </div>
         </div>
     );
 };
+
+// const EmployeeTable = (props) => {
+//     return (
+//         <div>
+//         <tr>
+//             <th scope>Image</th>
+//             <th scope>Name</th>
+//             <th scope>Phone</th>
+//             <th scope>Email</th>
+//             <th scope>DOB</th>
+//         </tr>
+//         {props.users.map(user => {
+//             return  (
+//                 <tr key={user.email}>{user.image}</tr>
+//             )
+//         })}
+//         </div>
+//     );
+// };
 
 
 
